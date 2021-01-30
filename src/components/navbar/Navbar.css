@@ -1,0 +1,52 @@
+.navbar {
+  font-family: "Space Grotesk", sans-serif !important;
+  width: 95%;
+  margin: auto;
+}
+.navbar h3 {
+  display: inline-block;
+  padding: 24px 12px;
+  color: #00000ac5;
+  font-weight: 500;
+  cursor: default;
+  margin: 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+.navbar h3:hover {
+  color: #000000;
+}
+
+.navbar__button--login {
+  align-self: center;
+  margin-right: 10px !important;
+}
+
+.navbar__button--grid {
+  align-self: center;
+  text-transform: none;
+  margin-left: auto !important;
+}
+
+.navbar__button--icon {
+  color: #ff7846;
+  font-size: 18px !important;
+  transform: translateY(-1px);
+  margin-right: 5px;
+}
+
+.navbar__button--message {
+  background-color: #ff7846 !important;
+}
+
+.navbar__grid--items {
+  padding-left: 40px;
+  padding-top: 2px;
+}
+
+.navbar__username {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: 500;
+  width: fit-content;
+}

@@ -1,0 +1,44 @@
+.footerProducts {
+  height: 100%;
+  width: 100%;
+  background: white;
+}
+
+.footerProducts h1 {
+  cursor: pointer;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #00000a;
+  text-align: start;
+  animation: 0.6s ease-in-out slidein;
+}
+
+.footerProducts h2 {
+  animation: 0.6s ease-in-out slidein;
+  color: #500ad2;
+  font-size: 16px;
+  text-align: start;
+  font-weight: 400;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.footerProducts h2:hover {
+  transform: translateX(3px);
+}
+
+.footerProducts__container {
+  width: 80% !important;
+  margin: 0 auto;
+}
+
+.footerProducts h1 svg {
+  font-size: 18px;
+  transform: translateY(3px);
+  transition: all 0.3s;
+}
+
+.footerProducts h1:hover svg {
+  transform: translate(3px, 3px);
+}

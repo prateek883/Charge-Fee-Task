@@ -1,0 +1,59 @@
+.minimize {
+  width: 90%;
+  padding: 20px;
+  margin: auto;
+  background: white;
+  transition: all 0.5s;
+}
+
+.minimize h1 {
+  text-transform: uppercase;
+  text-align: start;
+  border-left: 10px solid #3a008c;
+  width: 100%;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.025em;
+  color: #242438;
+  margin-top: 24px;
+  padding-left: 16px;
+  line-height: 24px;
+  position: relative;
+  display: inline-block;
+}
+.minimize h2 {
+  font-size: 16px;
+  margin-bottom: 12px;
+  width: 100%;
+  text-align: start;
+  color: #000ff0;
+  font-weight: 500;
+}
+.minimize h3 {
+  font-size: 12px;
+  text-align: start;
+  width: 100%;
+}
+
+.minimize__button {
+  color: #000ff0 !important;
+  font-weight: 600 !important;
+  margin-top: 20px !important;
+  width: 100% !important;
+  line-height: 68px;
+}
+
+.minimize__button:hover {
+  background: #000ff0 !important;
+  color: #fff !important;
+}
+
+.minimize__close {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+
+.minimize h5 {
+  margin-top: 30px;
+}

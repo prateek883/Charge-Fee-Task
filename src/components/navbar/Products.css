@@ -1,0 +1,98 @@
+.products {
+  animation: 0.2s linear upToDown;
+  position: absolute;
+  width: 97%;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ecf3f7),
+    color-stop(99.92%, #fff)
+  );
+  z-index: 9999;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.87);
+}
+
+.products h1 {
+  margin-top: 60px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #00000a;
+  text-align: start;
+  animation: 0.6s ease-in-out slidein;
+}
+
+.products h2 {
+  animation: 0.6s ease-in-out slidein;
+  color: #500ad2;
+  font-size: 16px;
+  text-align: start;
+  font-weight: 400;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.products h2:hover {
+  transform: translateX(3px);
+}
+
+@keyframes upToDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.products__items span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.products__items span:hover {
+  color: #500ad2;
+}
+
+.products__items p {
+  text-align: start;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.products__items {
+  margin-top: 50px;
+}
+
+.products__items h4 {
+  text-align: start;
+  color: #500ad2;
+  cursor: pointer;
+  font-size: 18px;
+  width: fit-content;
+}
+
+.products__items h4 svg {
+  transition: all 0.3s;
+  margin-bottom: -5px;
+}
+
+.products__items h4:hover svg {
+  transform: translateX(5px) !important;
+}
